@@ -1,8 +1,7 @@
 library(readxl)
 library(dplyr)
-setwd ("J:/Shared drives/tlersuthirat-project/Anticancer peptide")
-ML3_top1500 <- read.csv("J:/Shared drives/tlersuthirat-project/Anticancer peptide/ML3_top1500.csv",
-                             header = TRUE)
+
+ML3_top1500 <- read.csv("file.csv", header = TRUE)
 
 ##execute this fisrt to store in merge1
 ML3_top1500_1 <- ML3_top1500[51:100,]
